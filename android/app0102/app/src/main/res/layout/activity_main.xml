@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <Button
+        android:id="@+id/btnViewEvent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="뷰이벤트사용하기"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/StopWatch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="스톱워치"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/btn_android_resource"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="안드로이드 리소스" />
+
+    <Button
+        android:id="@+id/btnLandView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="가로화면 사용하기" />
+
+</LinearLayout>

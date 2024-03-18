@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">app0102</string>
+    <string name="txt_start">Start</string>
+    <string name="txt_stop">Stop</string>
+    <string name="txt_reset">Reset</string>
+    <string name="intro">Hello</string>
+</resources>

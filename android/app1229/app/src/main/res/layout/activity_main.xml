@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btnRelative1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RelativeLayout" />
+
+    <Button
+        android:id="@+id/btnFreame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FreameLayout" />
+
+
+    <Button
+        android:id="@+id/btnGrid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GridLayout" />
+
+    <Button
+        android:id="@+id/btnConstraint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Constratint" />
+    <Button
+        android:id="@+id/btnPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone" />
+    <Button
+        android:id="@+id/btnTouch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="터치이벤트" />
+
+</LinearLayout>
